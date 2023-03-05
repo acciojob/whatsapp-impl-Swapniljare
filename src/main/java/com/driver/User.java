@@ -9,10 +9,19 @@ public class User {
         this.mobile = mobile;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public String getMobile(){
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getMobile() {
         return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 }

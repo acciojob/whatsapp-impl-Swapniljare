@@ -13,14 +13,28 @@ public class Message {
         Date date = new Date();
         this.timestamp = date;
     }
-    public int getId(){
+
+    public int getId() {
         return id;
     }
-    public String getContent(){
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getContent() {
         return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public Date getTimestamp() {
         return timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
     }
 }
